@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 
+
 export function ProductGallery({ images, name }: { images: string[]; name: string }) {
   const [active, setActive] = useState(0);
 
