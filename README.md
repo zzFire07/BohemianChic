@@ -69,5 +69,3 @@ Ejemplos
 
 1. npm run build
 2. npm run start
-
-Para desplegar rápido, Vercel funciona bien. Si querés, después lo dejamos listo con un backend real (DB, auth, pagos).
