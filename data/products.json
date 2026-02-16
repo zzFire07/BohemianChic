@@ -1,0 +1,80 @@
+[
+  {
+    "id": "dress-001",
+    "slug": "vestido-invierno-nieve-marfil",
+    "name": "Vestido Invierno Nieve Marfil",
+    "season": "invierno",
+    "price": 69.9,
+    "sizes": ["XS", "S", "M", "L"],
+    "description": "Vestido invernal en tono marfil, pensado para looks cálidos y elegantes. Ideal con botas y abrigo.",
+    "images": [
+      "https://images.unsplash.com/photo-1611521601552-97a6f2f654f1?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "https://images.unsplash.com/photo-1624874784628-8def26e3e82e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb"
+    ]
+  },
+  {
+    "id": "dress-002",
+    "slug": "vestido-invierno-bosque-crema",
+    "name": "Vestido Invierno Bosque Crema",
+    "season": "invierno",
+    "price": 74.5,
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Vestido crema con caída suave, perfecto para combinar con medias térmicas y accesorios neutros.",
+    "images": [
+      "https://images.unsplash.com/photo-1755695188741-c85c6e8d5293?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "https://images.unsplash.com/photo-1611521601552-97a6f2f654f1?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb"
+    ]
+  },
+  {
+    "id": "dress-004",
+    "slug": "vestido-invierno-terciopelo-suave",
+    "name": "Vestido Invierno Terciopelo Suave",
+    "season": "invierno",
+    "price": 82.5,
+    "sizes": ["S", "M", "L"],
+    "description": "Vestido con vibra de invierno y textura visual elegante. Para cenas, salidas y ocasiones especiales.",
+    "images": [
+      "https://images.unsplash.com/photo-1707129647107-f0c8ab6cd114?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "https://images.unsplash.com/photo-1697623983063-bdbeea07c866?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb"
+    ]
+  },
+  {
+    "id": "dress-006",
+    "slug": "vestido-verano-campo-rosa",
+    "name": "Vestido Verano Campo Rosa",
+    "season": "verano",
+    "price": 57.0,
+    "sizes": ["S", "M", "L"],
+    "description": "Vestido en tonos cálidos para salidas de día. Combina perfecto con sandalias y bolso tejido.",
+    "images": [
+      "https://images.unsplash.com/photo-1697623983063-bdbeea07c866?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "https://images.unsplash.com/photo-1762341558018-f5c90816794d?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb"
+    ]
+  },
+  {
+    "id": "dress-007",
+    "slug": "vestido-verano-lavanda-amarillo",
+    "name": "Vestido Verano Lavanda Amarillo",
+    "season": "verano",
+    "price": 52.5,
+    "sizes": ["XS", "S", "M"],
+    "description": "Vestido suave y luminoso, pensado para días al aire libre y fotos veraniegas.",
+    "images": [
+      "https://images.unsplash.com/photo-1624874784628-8def26e3e82e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "https://images.unsplash.com/photo-1697623983063-bdbeea07c866?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb"
+    ]
+  },
+  {
+    "id": "dress-008",
+    "slug": "vestido-verano-azul-suave",
+    "name": "Vestido Verano Azul Suave",
+    "season": "verano",
+    "price": 59.9,
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Vestido azul claro, liviano y versátil. Ideal para tarde, paseo y salidas casuales.",
+    "images": [
+      "https://images.unsplash.com/photo-1762341558018-f5c90816794d?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "https://images.unsplash.com/photo-1624874784628-8def26e3e82e?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb"
+    ]
+  }
+]
