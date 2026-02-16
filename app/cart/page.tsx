@@ -54,7 +54,7 @@ export default function CartPage() {
                   <div className="flex-1 min-w-0">
                     <div className="flex items-start justify-between gap-4">
                       <div className="min-w-0">
-                        <div className="font-bold truncate">{it.name}</div>
+                        <div className="font-bold break-words">{it.name}</div>
                         <div className="text-sm text-slate-600">Talla: {it.size}</div>
                         <div className="text-sm text-slate-600">{formatMoney(it.price)} c/u</div>
                       </div>
