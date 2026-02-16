@@ -28,8 +28,8 @@ export default function CartPage() {
   }, [firstName, lastName, phone, items, total]);
 
   return (
-    <div className="grid gap-8 lg:grid-cols-5">
-      <div className="lg:col-span-3 space-y-4">
+    <div className="grid gap-8 lg:grid-cols-5  min-w-0">
+      <div className="lg:col-span-3 space-y-4  min-w-0">
         <div>
           <h1 className="text-2xl font-bold">Carrito</h1>
           <p className="text-sm text-slate-600">Revisá tus productos y completá tus datos</p>
@@ -88,32 +88,32 @@ export default function CartPage() {
         )}
       </div>
 
-      <div className="lg:col-span-2 space-y-4">
-        <div className="card p-6 space-y-4">
+      <div className="lg:col-span-2 space-y-4 min-w-0">
+        <div className="card p-6 space-y-4 min-w-0">
           <div className="text-lg font-extrabold">Datos del cliente</div>
 
-          <div className="grid gap-3">
+          <div className="grid gap-3  min-w-0">
             <label className="text-sm font-semibold">
               Nombre
-              <input className="input mt-1" value={firstName} onChange={(e) => setFirstName(e.target.value)} placeholder="Juan" />
+              <input className="input mt-1 min-w-0" value={firstName} onChange={(e) => setFirstName(e.target.value)} placeholder="Juan" />
             </label>
 
             <label className="text-sm font-semibold">
               Apellido
-              <input className="input mt-1" value={lastName} onChange={(e) => setLastName(e.target.value)} placeholder="Pérez" />
+              <input className="input mt-1 min-w-0" value={lastName} onChange={(e) => setLastName(e.target.value)} placeholder="Pérez" />
             </label>
 
             <label className="text-sm font-semibold">
               Teléfono
-              <input className="input mt-1" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="+598 99 123 456" />
+              <input className="input mt-1 min-w-0" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="+598 99 123 456" />
             </label>
           </div>
         </div>
 
-        <div className="card p-6 space-y-4">
-          <div className="flex items-center justify-between">
+        <div className="card p-6 space-y-4 min-w-0">
+          <div className="flex items-center justify-between min-w-0">
             <div className="text-sm text-slate-600">Total</div>
-            <div className="text-2xl font-extrabold">{formatMoney(total)}</div>
+            <div className="text-2xl font-extrabold whitespace-nowrap">{formatMoney(total)}</div>
           </div>
 
           <Link
