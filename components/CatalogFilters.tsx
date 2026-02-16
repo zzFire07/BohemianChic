@@ -1,21 +1,20 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { getFilterOptions } from "@/lib/products";
 import Link from "next/link";
 
 export function CatalogFilters() {
   const router = useRouter();
-  const sp = useSearchParams();
 
   const opts = useMemo(() => getFilterOptions(), []);
 
-  const [q, setQ] = useState(sp.get("q") ?? "");
-  const [season, setSeason] = useState(sp.get("season") ?? "");
-  const [size, setSize] = useState(sp.get("size") ?? "");
-  const [minPrice, setMinPrice] = useState(sp.get("minPrice") ?? "");
-  const [maxPrice, setMaxPrice] = useState(sp.get("maxPrice") ?? "");
+  const [q, setQ] = useState("");
+  const [season, setSeason] = useState("");
+  const [size, setSize] = useState("");
+  const [minPrice, setMinPrice] = useState("");
+  const [maxPrice, setMaxPrice] = useState("");
 
   function apply() {
     const params = new URLSearchParams();
