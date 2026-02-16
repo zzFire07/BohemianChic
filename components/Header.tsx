@@ -7,8 +7,7 @@ import Link from "next/link";
 
 export function Header() {
   const router = useRouter();
-  const sp = useSearchParams();
-  const [q, setQ] = useState(sp.get("q") ?? "");
+  const [q, setQ] = useState("");
   const { items } = useCart();
 
   const count = useMemo(() => items.reduce((sum, it) => sum + it.qty, 0), [items]);
